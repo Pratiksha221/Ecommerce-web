@@ -32,6 +32,7 @@ f=false,d=document,code={use_existing_jquery:function(){return use_existing_jque
 </head>
 
 <body>
+
 <script type="text/javascript">
 var utag_data = {
   GA_account : "", // 
@@ -136,8 +137,99 @@ var utag_data = {
     b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
     a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
     })();
+</script>*/
+ <script type="text/javascript">
+var utag_data = {
+  event_category : "", // 
+  event_action : "", // 
+  event_label : "", // 
+  event_name : "", // 
+  link_click : "", // 
+  form_title : "", // 
+  form_type : "", // 
+  tealium_event : "", // 
+  order_id : "", // 
+  product_id : "", // Contains product ID(s) - multiple values should be comma-separated.
+  product_sku : "", // Contains product SKU(s) - multiple values should be comma-separated.
+  product_name : "", // Contains product name(s) - multiple values should be comma-separated.
+  product_brand : "", // Contains product brand(s) - multiple values should be comma-separated.
+  product_category : "", // Contains product category(s) - multiple values should be comma-separated.
+  product_subcategory : "", // Contains product subcategory(s) - multiple values should be comma-separated.
+  product_unit_price : "", // Contains product unit price(s) - multiple values should be comma-separated.
+  product_list_price : "", // Contains product list price(s) before discount - multiple values should be comma-separated.
+  product_quantity : "", // Contains product quantity(s) - multiple values should be comma-separated.
+  product_discount : "", // Contains product discount(s) - multiple values should be comma-separated.
+  order_total : "", // Contains the order total value.
+  order_subtotal : "", // Contains the order subtotal (not containing taxes &amp; shipping).
+  order_payment_type : "", // Contains the order payment type.
+  order_discount : "", // Contains the order discount (if any).
+  order_shipping : "", // Contains the order shipping value.
+  order_tax : "", // Contains the order tax amount.
+  order_currency : "", // Contains the currency associated with the transaction, e.g. 'USD'.
+  order_coupon_code : "", // Contains the order coupon code.
+  order_coupon_discount : "", // Contains the order coupon discount.
+  order_store : "", // Contains identification information for a store.
+  order_type : "", // Contains type of order/cart.
+  customer_id : "", // Contains the customer ID.
+  customer_city : "", // Contains the customer city.
+  customer_state : "", // Contains the customer state.
+  customer_zip : "", // Contains the customer zip/postal code.
+  customer_country : "", // Contains the customer country.
+  customer_email : "", // Contains the customer email.
+  customer_type : "", // Contains the customer type.
+  impression_list_name : "", // 
+  impression_category : "", // 
+  impression_id : "", // 
+  impression_name : "", // 
+  impression_price : "", // 
+  impression_subcategory : "", // 
+  items : "", // 
+  impression_list_position : "", // 
+  event_name_ga4 : "", // 
+  promo_name : "", // 
+  content_group : "", // 
+  event_Category : "", // 
+  event_Action : "", // 
+  event_Label : "", // 
+  GA4_Measurement_ID : "", // 
+  GA_account : "", // 
+  iq_event_id : "", // A system variable that contains the ID of an iQ event and used to fire a tag when an event happens.
+  thankYou_page_queryParameter_serialNo : "", // 
+  thankYou_page_queryParameter_productName : "", // 
+  serial_number : "", // 
+  test : "", // 
+  journey_type : "", // 
+  application_step : "", // 
+  interaction_name : "", // 
+  srcc : "", // 
+  user_type : "", // 
+  productID : "", // 
+  quantity : "", // 
+  price : "", // 
+  scroll_depth : "", // 
+  pageType : "", // 
+  productId : "", // 
+  productName : "", // 
+  productPrice : "", // 
+  productQty : "", // 
+  productVariant : "", // 
+  page_name : "", // 
+  previousPageType : "", // 
+  click_type : "", // 
+  visitorAuthenticationStatus : "", // 
+  button_click_type : "" // 
+}
 </script>
- 
+
+<!-- Loading script asynchronously -->
+<script type="text/javascript">
+    (function(a,b,c,d){
+    a='https://tags.tiqcdn.com/utag/nabler-sandbox/pratiksha.v/prod/utag.js';
+    b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+    a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+    })();
+</script>
+
     <nav class="navbar"></nav>
     <script src="js/nav.js"></script>
     <header class="hero-section">
